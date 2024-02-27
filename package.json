@@ -1,0 +1,26 @@
+{
+  "name": "df-state-management",
+  "version": "1.0.0",
+  "description": "State Management Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nayana m r",
+  "license": "ISC",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.77.0",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
+    "react": "^18.2.0",
+    "react-redux": "^9.1.0"
+  }
+}
